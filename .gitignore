@@ -1,0 +1,11 @@
+# Local budget data (created at runtime)
+budget.json
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.env
