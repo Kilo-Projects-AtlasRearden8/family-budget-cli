@@ -1,11 +1,16 @@
-# Local budget data (created at runtime)
-budget.json
-*.csv
 
+# Local budget data (created at runtime)
 # Python
-__pycache__/
+*.csv
 *.py[cod]
+*.pyc
 *.pyo
-.pytest_cache/
-.mypy_cache/
 .env
+.env.*
+.mypy_cache/
+.pytest_cache/
+.venv/
+__pycache__/
+budget.json
+dist/*.tmp
+node_modules/
